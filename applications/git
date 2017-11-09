@@ -1,0 +1,3 @@
+git remote -v，显示远端名称及当前配置的仓库名称
+git clone 位置，可以把远程项目复制到本地
+git add .、git commit -m "备注"、git push origin master，常规提交三步骤
