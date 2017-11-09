@@ -1,0 +1,8 @@
+robots.txt
+comment，这个什么情况？
+xx.swap
+.pyc
+.DS_Store，苹果的
+.git
+.svn
+bak file( .tar.gz/.rar/.zip/.7z )
