@@ -5,3 +5,7 @@ you can press "ctrl+z" to execute quit operation, and the system will prompt you
 
 batch mode
 execute "undo xxxxxx" and "commit" after using "interface range" to set scope.
+eample: 
+	1. interface range 10GE 1/1/0/2 to 10GE 1/1/0/13
+	2. undo shutdown
+	3. commit
