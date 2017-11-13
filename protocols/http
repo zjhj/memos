@@ -1,0 +1,5 @@
+[data protocol?]
+
+The normal format:
+data: type;data
+example: data:image/png;base64,pic-data...
