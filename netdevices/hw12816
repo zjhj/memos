@@ -1,0 +1,7 @@
+interface operation:
+
+You must "commit" after your "undo shutdown" operation,
+you can press "ctrl+z" to execute quit operation, and the system will prompt you to commit changes, or execute "commit" immediately.
+
+batch mode
+execute "undo xxxxxx" and "commit" after using "interface range" to set scope.
