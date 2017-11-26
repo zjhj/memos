@@ -1,0 +1,4 @@
+RSA加密的时候，素数因子过大或过小，容易被攻击。
+
+加密：openssl rsautl -encrypt -in 11 -inkey 公钥文件 -pubin -out 11.en 
+解密：openssl rsautl -decrypt -in 11.en -inkey 私钥文件 -out 22

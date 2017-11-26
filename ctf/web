@@ -1,0 +1,10 @@
+php解析时，如index.php/index.phtml的形式，也可以正常访问index.php？
+
+index.php?file=php://filter/read=convert.base64-encode/resource=ctf.php
+
+php可以序列化类、数组等，如下形式：
+$a = array('a'=>1,'b'=>2); echo serialize( $a );
+序列化之后的数据可通过WEB提交后反序列化：
+print_r( unserialize( $_GET['b'] ) ); （服务端显示）
+curl "localhost/22.php?b=a:3:\{s:1:\"a\";i:1;s:1:\"b\";i:2;\}" （客户端提交）
+反序列化漏洞为修改成员数目大于真实数目即可跳过_wakeup的执行
