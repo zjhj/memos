@@ -9,3 +9,9 @@ eample:
 	1. interface range 10GE 1/1/0/2 to 10GE 1/1/0/13
 	2. undo shutdown
 	3. commit
+
+svf: 纵向虚拟化技术
+
+先配置为保留端口
+将10G口从互联中去除
+添加100G口
