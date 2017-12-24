@@ -6,6 +6,11 @@ hello = 'hello'
 world = "world"
 hw12 = '%s %s %d' % (hello, world, 12)
 
+## 复合数据类型
 列表推导简化代码（带条件形式）
 nums = [0, 1, 2, 3, 4]
 even_squares = [x ** 2 for x in nums if x % 2 == 0]
+
+字典按键读取可设置未匹配成功的返回值：
+d = {'cat': 'cute', 'dog': 'furry'}
+print d.get('monkey', 'N/A')
