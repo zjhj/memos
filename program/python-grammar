@@ -1,2 +1,11 @@
 ## 字符串相关
 字符串使用*运算符，可以实现字符串重复模式扩展
+
+按格式生成字符串示例：
+hello = 'hello'
+world = "world"
+hw12 = '%s %s %d' % (hello, world, 12)
+
+列表推导简化代码（带条件形式）
+nums = [0, 1, 2, 3, 4]
+even_squares = [x ** 2 for x in nums if x % 2 == 0]
