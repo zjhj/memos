@@ -2,3 +2,5 @@ PCEP: Path Computation Element Protocol
 MSTP: Multiple Spanning Tree Protocol
 TRILL: Transparent Interconnection of Lots of Links
 TOR: Top of Rank，该方式将接入交换机放置在每个服务器机柜或单元的顶部，机柜内服务器直接通过短跳线连接到顶部的交换机上，再经由光纤从交换机的上行链路端口连至核心交换机。
+
+ECN: Explicit Congestion Notification
